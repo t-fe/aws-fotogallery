@@ -14,7 +14,9 @@ First, set up your application of choice.
 
 Ampliy supports different frameworks such as Flutter, React, Angular.
 
-See here: https://docs.amplify.aws/start/q/integration/flutter
+See here:
+* Flutter: https://docs.amplify.aws/start/q/integration/flutter
+* JavaScript: https://docs.amplify.aws/start/q/integration/js
 
 You will find the possibility to choose the framework you love at the
 the upper left.
@@ -28,4 +30,13 @@ calling `amplify add auth`. When adding AWS S3 by calling
 `amplify add storage`, the framework will ask whether the storage
 is restricted by an existing authentication.
 
+As soon as authentication is set up, you will be able to
+make use of Amplify Plugins, which allow to to things like
+signing in or out, registering and so on.
 
+Find out more on how to do authentication here:
+* Flutter: [https://docs.amplify.aws/lib/auth/getting-started/q/platform/flutter][Flutter]
+* JavaScript: [https://docs.amplify.aws/lib/q/platform/js][JavaScript]
+
+[Flutter]: https://docs.amplify.aws/lib/auth/getting-started/q/platform/flutter
+[JavaScript]: https://docs.amplify.aws/lib/q/platform/js
